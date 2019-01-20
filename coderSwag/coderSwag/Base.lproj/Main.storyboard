@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="133.5" width="375" height="533.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="125" id="Bss-Vs-4Zh" customClass="CategoryCell" customModule="coderSwag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="125" id="Bss-Vs-4Zh" customClass="CategoryCell" customModule="coderSwag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="125"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bss-Vs-4Zh" id="7oS-NG-R9O">
@@ -56,7 +56,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="categoryImage" destination="vQA-uV-2to" id="Nnt-WB-J1i"/>
-                                            <outlet property="categoryTile" destination="dIi-fZ-Sv2" id="Nkb-PE-jOe"/>
+                                            <outlet property="categoryTitle" destination="dIi-fZ-Sv2" id="wkh-n8-x9A"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -75,7 +75,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="j56-AB-bZk"/>
                     <connections>
-                        <outlet property="categeryTable" destination="ko7-eR-dSj" id="vnJ-8g-BsJ"/>
+                        <outlet property="categoryTable" destination="ko7-eR-dSj" id="LO0-sb-NpN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
